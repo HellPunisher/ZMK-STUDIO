@@ -180,18 +180,18 @@ include:
   ### SOFLEV2 SOFLEV1 SOFLEPLUS START ###
   # nice!oled sofle
   - board: nrfmicro_13
-    shield: sofle_left nice_oled
+    shield: sofle_left
     cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME=\"Sofle_Oled\"  -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_SLEEP=y -DCONFIG_ZMK_IDLE_TIMEOUT=60000
     artifact-name: nice_sofle_left_oled
     snippet: studio-rpc-usb-uart
   - board: nrfmicro_13
-    shield: sofle_right nice_oled
+    shield: sofle_right
     cmake-args: -DCONFIG_ZMK_SLEEP=y -DCONFIG_ZMK_IDLE_TIMEOUT=60000
     artifact-name: nice_sofle_right_oled
 
   # peripheral_left
   - board: nrfmicro_13
-    shield: sofle_left_peripheral nice_oled
+    shield: sofle_left_peripheral
     cmake-args: -DCONFIG_ZMK_SLEEP=y -DCONFIG_ZMK_IDLE_TIMEOUT=60000
     artifact-name: nice_sofle_left_peripheral_oled
 
